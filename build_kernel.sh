@@ -8,17 +8,18 @@ sudo apt install raspberrypi-kernel-headers build-essential bc git wget bison fl
 # Get Kernel Source Code
 git clone --depth=1 https://github.com/raspberrypi/linux
 
-# SSH Assignment Repository
+# SSH My Assignment Repository
 git clone git@github.com:milucid/usap_a2.git
 
 # Generate Kernel Configuration
 cd linux || exit
 KERNEL=kernel7
 make bcm2709_defconfig 
-export CONFIG_LOCALVERSION="-v7l-s3656006"
-# If you're using a Raspberry Pi 4, replace above values with these: 
-# KERNEL=kernel7l
-# make bcm2711_defconfig
+CONFIG_LOCALVERSION="-v7-s3656006"
+echo $CONFIG_LOCALVERSION
+## If you're using a Raspberry Pi 4, replace above values with these: 
+#KERNEL=kernel7l
+#make bcm2711_defconfig
 
 # Compile Kernel Source Code
 make -j4 zImage modules dtbs
@@ -30,5 +31,6 @@ sudo cp arch/arm/boot/dts/overlays/*.dtb* /boot/overlays/
 sudo cp arch/arm/boot/dts/overlays/README /boot/overlays/
 sudo cp arch/arm/boot/zImage /boot/$KERNEL.img
 
-# Completion Message
-echo "Kernel build script has been completed, reboot device to run new kernel."
+# Completion Message and Reboot
+echo "Kernel build script has been completed, device will reboot to run new kernel."
+sudo reboot
