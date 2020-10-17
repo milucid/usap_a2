@@ -6,7 +6,11 @@ Here's the graph:
 
 ![Temperature Graph](temp_20201016.png)
 
-This graph was created by using gnuplot and the output data that was stored in 'kernel_performance_data' file from the 'get_temp' script that I have created and ran during the compiling process. 
+This graph was created by using gnuplot and the output data that was stored in 'kernel_performance_data' file from the 'get_temp' script that I have created and ran during the compiling process.
+
+After altering the gnuplot config, I used the following command:
+
+`plot "kernel_performance_data" using 1:3 title "temperature" with lines lc rgb '#8b1a0e' lt 1 lw 2`
 
 As you can see, the device temperature increased and decreased throughout the building/compiling process. At 16:55 I started the script and the CPU temp went to 61 degrees celsius and backdown to 56 at 16:58. Within this timeframe, the device was installing the dependencies, cloning both kernel and assignment repositories, and configurating the kernel.
 
