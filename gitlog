@@ -1,0 +1,149 @@
+commit 18f41c348033198d5e2610a2a143f3d30c26b2c7
+Author: Milos Mladenovic <s3656006@student.rmit.edu.au>
+Date:   Sat Oct 17 20:50:11 2020 +0100
+
+    ShellCheck approved
+
+commit 3ddfb8249b148b966b740d1d7b8e30cff4c5d99d
+Author: milucid <53543243+milucid@users.noreply.github.com>
+Date:   Sun Oct 18 06:47:24 2020 +1100
+
+    ShellCheck approved
+
+commit d346bd1e812893f8001ddf62633e261ad71386eb
+Author: milucid <53543243+milucid@users.noreply.github.com>
+Date:   Sun Oct 18 06:45:46 2020 +1100
+
+    Markdown version
+
+commit 9ee08a46a4ebaf27a6f5d73aa77ae5fa3d4e3678
+Author: milucid <53543243+milucid@users.noreply.github.com>
+Date:   Sun Oct 18 06:45:08 2020 +1100
+
+    Markdown version
+
+commit 9710c923a632bb08f2e1b63e29565dc57cacda7a
+Author: milucid <53543243+milucid@users.noreply.github.com>
+Date:   Sun Oct 18 06:44:28 2020 +1100
+
+    Markdown Version
+
+commit e376ec4497a4dbda1720d9f3121cc24f1e0463e6
+Author: Milos Mladenovic <s3656006@student.rmit.edu.au>
+Date:   Sat Oct 17 20:42:30 2020 +0100
+
+    Performance Report
+
+commit 186ffb7c048f2266296cc1c0ceaa427ef253031f
+Author: Milos Mladenovic <s3656006@student.rmit.edu.au>
+Date:   Sat Oct 17 20:35:01 2020 +0100
+
+    Final report
+
+commit 6b0832438327845c77e8d2f2b7b9ffc365edccc6
+Author: Milos Mladenovic <s3656006@student.rmit.edu.au>
+Date:   Sat Oct 17 20:32:19 2020 +0100
+
+    Report on kernel performance data
+
+commit ae2f6c694baa78b13636cff95fe7264538cec1f3
+Author: milucid <53543243+milucid@users.noreply.github.com>
+Date:   Sun Oct 18 06:08:47 2020 +1100
+
+    How to use
+
+commit 575703a36288fc56ffbd262ed418fc792e8ee37d
+Author: milucid <53543243+milucid@users.noreply.github.com>
+Date:   Sun Oct 18 06:04:19 2020 +1100
+
+    How To Use
+
+commit 5a6444fbb3f9cb42a933bd869bb2f113938c6d01
+Author: milucid <53543243+milucid@users.noreply.github.com>
+Date:   Sun Oct 18 06:03:06 2020 +1100
+
+    HOW TO USE
+
+commit 21261b2f83fd23a44695ca9c01b32e95b9a2fc6a
+Author: Milos Mladenovic <s3656006@student.rmit.edu.au>
+Date:   Sat Oct 17 19:36:07 2020 +0100
+
+    Markdown version for script manpages
+
+commit a38f6fba11e30259bfe137720e332c219aa58f45
+Author: Milos Mladenovic <s3656006@student.rmit.edu.au>
+Date:   Sat Oct 17 19:13:17 2020 +0100
+
+    Man pages for both scripts and report.md created
+
+commit ec35e49ca45227c32f32cb71a4ee63815baef7a2
+Author: Milos Mladenovic <s3656006@student.rmit.edu.au>
+Date:   Sat Oct 17 18:31:58 2020 +0100
+
+    ShellCheck approved
+
+commit 8adeaef28388df7e1b077c3abb4745361cc6e437
+Author: Milos Mladenovic <s3656006@student.rmit.edu.au>
+Date:   Sat Oct 17 17:59:07 2020 +0100
+
+    Temperature recording script
+
+commit 2e21f5871574f302eab431e971950b9d55b1852b
+Author: Milos Mladenovic <s3656006@student.rmit.edu.au>
+Date:   Sat Oct 17 17:50:45 2020 +0100
+
+    Temperature data
+
+commit a4018d70c62e644b04dd790cd939c93233fdc3f1
+Author: Milos Mladenovic <s3656006@student.rmit.edu.au>
+Date:   Sat Oct 17 17:31:15 2020 +0100
+
+    First gnuplot image
+
+commit 8e94dbf641d5e99c44232e3d96ddbb8afa7de71a
+Author: Milos Mladenovic <s3656006@student.rmit.edu.au>
+Date:   Sat Oct 17 06:06:49 2020 +0100
+
+    Copied my .config to assignment repo
+
+commit fbb7ecfc17664039e72ebed6ff2f1495338c6041
+Author: Milos Mladenovic <s3656006@student.rmit.edu.au>
+Date:   Sat Oct 17 05:46:02 2020 +0100
+
+    Deleting test file from repo
+
+commit 4c728f312f62f6ec0fa564d434b84e8fdde252fd
+Author: Milos Mladenovic <s3656006@student.rmit.edu.au>
+Date:   Sat Oct 17 05:44:45 2020 +0100
+
+    Testing git log
+
+commit b4ab742421cb2ae30c7dbfd1b39701f3d855d7e4
+Author: Milos Mladenovic <s3656006@student.rmit.edu.au>
+Date:   Sat Oct 17 05:41:21 2020 +0100
+
+    Testing new local git student username/email confg
+
+commit 3e63ec9015ed12a643dfc4c0b6c0f5a378bc03fe
+Author: milucid <milkings98@gmail.com>
+Date:   Thu Oct 15 14:39:07 2020 +0100
+
+    Add student ID to version and added sudo reboot
+
+commit 4dd4aec3779dc8f47ecfcca7d138e7c7f45074ae
+Author: milucid <milkings98@gmail.com>
+Date:   Thu Oct 15 11:41:27 2020 +0100
+
+    Build Kernel Script v1
+
+commit eaa4d95f8070d1718b2a76a559a8547a6e1a6f85
+Author: milucid <milkings98@gmail.com>
+Date:   Thu Oct 15 09:25:21 2020 +0100
+
+    First Test 123
+
+commit c55f653fdad20f86e1c29ea46c1cc52e43eaba92
+Author: milucid <53543243+milucid@users.noreply.github.com>
+Date:   Thu Oct 15 19:07:37 2020 +1100
+
+    Initial commit
