@@ -18,8 +18,8 @@ make bcm2709_defconfig
 CONFIG_LOCALVERSION="-v7-s3656006"
 echo $CONFIG_LOCALVERSION
 ## If you're using a Raspberry Pi 4, replace above values with these: 
-#KERNEL=kernel7l
-#make bcm2711_defconfig
+# KERNEL=kernel7l
+# make bcm2711_defconfig
 
 # Compile Kernel Source Code
 make -j4 zImage modules dtbs
