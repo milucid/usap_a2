@@ -1,0 +1,17 @@
+.\" Manpage for get_temp.
+.\" Contact s3656006@student.rmit.edu.au to correct errors or typos.
+.TH man 8 "18 October 2020" "1.0" "get_temp man page"
+.SH NAME
+get_temp \- records device temperature 
+.SH SYNOPSIS
+get_temp [./get_temp]
+.SH DESCRIPTION
+get_temp is a shell script that utilises 'vcgencmd' to record the devices temperature and stores it to a file called "kernel_performance_data" every 30 seconds. This script can run the in the background while you perform your build_kernel script.
+.SH OPTIONS
+The get_temp does not take any options. However, you can run it in the background [./get_temp &]
+.SH SEE ALSO
+build_kernel 
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Milos Mladenovic (s3656006@student.rmit.edu.au)

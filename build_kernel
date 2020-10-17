@@ -1,0 +1,17 @@
+.\" Manpage for build_kernel.
+.\" Contact s3656006@student.rmit.edu.au to correct errors or typos.
+.TH man 8 "18 October 2020" "1.0" "build_kernel man page"
+.SH NAME
+build_kernel \- build and compile linux kernel 
+.SH SYNOPSIS
+build_kernel [./build_kernel]
+.SH DESCRIPTION
+build_kernel is a shell script that builds and compiles a modified linux kernel. It starts off by installing prerequisite packages, git clones a kernel source code and s3656006 assignment repository. It then generates a kernel configuration, modifies and compiles it. Copies necessary files and reboots the device to load new kernel.
+.SH OPTIONS
+The build_kernel does not take any options. However, you can './build kernel &' to run in background.
+.SH SEE ALSO
+get_temp 
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Milos Mladenovic (s3656006@student.rmit.edu.au)
