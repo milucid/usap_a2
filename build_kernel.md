@@ -1,8 +1,8 @@
 # Manpage for build_kernel.
 
-## Contact s3656006@student.rmit.edu.au to correct errors or typos.
+Contact s3656006@student.rmit.edu.au to correct errors or typos.
 
-## This user-document is in markdown format, see build_kernel for manpage format.
+**This user-document is in markdown format, see build_kernel for manpage format.**
 
 ### NAME
 
