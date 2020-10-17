@@ -4,7 +4,7 @@
 
 while :
 do
-    temp=`vcgencmd measure_temp | cut -d'=' -f2 | cut -d"'" -f1`
-    echo "`date +"%d-%m %H:%M:%S"` $temp" >> kernel_performance_data
+    temp=$(vcgencmd measure_temp | cut -d'=' -f2 | cut -d"'" -f1)
+    echo "$(date +"%d-%m %H:%M:%S") $temp" >> kernel_performance_data
     sleep 30	# Records in 30 second intervals
 done
