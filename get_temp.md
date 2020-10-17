@@ -2,7 +2,7 @@
 
 Contact s3656006@student.rmit.edu.au to correct errors and typos.
 
-This user-document is in markdown format, see get_temp file for manpage format.
+**This user-document is in markdown format, see get_temp file for manpage format.**
 
 ### NAME
 
