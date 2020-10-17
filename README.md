@@ -26,12 +26,19 @@ View the manpages of both scripts for more information.
 ### Extra Files
 
 `.config` file is the configuration of my altered linux kernel.
+
 `build_kernel` manpage for build_kernel.sh in manpage format.
+
 `build_kernel.md` manpage for build_kernel.sh in markdown format.
+
 `get_temp` manpage for get_temp.sh in manpage format.
+
 `get_temp.md` manpage for get_temp.sh in markdown format.
+
 `kernel_performance_data` stored temperature and timestamp data from get_temp.sh script.
+
 `report.md` brief report in regards to gnuplot graph and kernel performance/temperature data.
+
 `temp_20201016.png` gnuplot graph image of kernel_performance_data.
 
 #### Credit
