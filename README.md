@@ -7,6 +7,10 @@ Assignment 2 for RMIT Unix Systems Administration and Programming (Linux) COSC11
 
 `chmod -R 755 usap_a2`
 
+View the manpages of both scripts for more information.
+
+`man ./get_temp` and `man ./build_kernel`
+
 This repository contains two main bash scripts. `build_kernel.sh` and `get_temp.sh`
 
 Change directory to `usap_a2` and copy `build_kernel.sh` to home directory `cp build_kernel.sh /home/[username]/build_kernel.sh`
@@ -19,9 +23,7 @@ Then `./build_kernel.sh` to begin building and compiling linux kernel, device wi
 
 SSH back into your Raspberry Pi and your device will now be using the new kernel.
 
-Enter `cat kernel_performance_data` for information about your devices temperature throughout the process.
-
-View the manpages of both scripts for more information.
+Enter `cat kernel_performance_data` to view information about your devices temperature throughout the process.
 
 ### Extra Files
 
